@@ -25,39 +25,3 @@ const navigate = () => {
   });
 };
 export default navigate;
-
-// const navigate = () => {
-//   const removeLinks = () => {
-//     links.forEach((link) => {
-//       link.classList.remove("selected");
-//     });
-//   };
-
-//   /* eslint-disable no-unused-vars */
-//   const displayBookList = (elem) => {
-//     bookListSection.style.display = "block";
-//     addBookSection.style.display = "none";
-//     contactSection.style.display = "none";
-//     removeLinks();
-//     elem.classList.add("selected");
-//   };
-//   const displayAddBooks = (elem) => {
-//     bookListSection.style.display = "none";
-//     addBookSection.style.display = "block";
-//     contactSection.style.display = "none";
-//     removeLinks();
-//     elem.classList.add("selected");
-//   };
-//   const displayContact = (elem) => {
-//     bookListSection.style.display = "none";
-//     addBookSection.style.display = "none";
-//     contactSection.style.display = "block";
-//     removeLinks();
-//     elem.classList.add("selected");
-//   };
-//   displayBookList();
-//   displayAddBooks();
-//   displayContact();
-// }
-
-// export default navigate

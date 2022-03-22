@@ -3,7 +3,7 @@ import navigate from './modules/pageNav.js';
 import date from './modules/Date.js';
 
 const bookLibrary = new BookLibrary();
-// bookLibrary.addBook()
+
 navigate();
 date();
 

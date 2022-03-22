@@ -33,6 +33,7 @@ header .links {
   display: flex;
   gap: 1rem;
   list-style-type: none;
+  cursor: pointer;
 }
 
 header .links .link {
@@ -70,7 +71,7 @@ h2 {
 
 .books .no-books {
   background-color: rgb(236, 162, 162);
-  display: block;
+  display: none;
   padding: 1em;
   color: red;
   font-weight: 600;
